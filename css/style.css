@@ -503,11 +503,11 @@ footer li {
 /* Mobile Phone */
 @media (max-width: 575.98px) {
     html {
-        font-size: 55%;
+        font-size: 45%;
     }
 
     html .simply-countdown >.simply-section {
-        padding: 40px;
+        padding: 36px;
         margin: 3px;
     }
 

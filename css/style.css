@@ -510,6 +510,10 @@ footer li {
         font-size: 17px !important;
     }
 
+     html .p {
+        font-size: 13px !important;
+    }
+
     html .simply-countdown >.simply-section {
         padding: 36px;
         margin: 3px;

@@ -17,7 +17,7 @@
   <body>
 <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
     <main>
-        <h4>The Wedding Of</h4>
+        <h4>Kepada <span></span></h4>
         <h1>Ragil Maulana Putra & Winda Yulianda</h1>
         <p>Akan Melangsungkan resepsi pernikahan dalam :</p>
         <div class="simply-countdown"></div>
@@ -533,7 +533,7 @@ window.addEventListener("load", function() {
 
 <script>
   const urlParams = new URLSearchParams(window.location.search);
-  const nama = urlParams.get('nama') || '';
+  const nama = urlParams.get('n') || '';
   const pronoun = urlParams.get('p') || 'Bapak/Ibu/Saudara/i';
   const namaContainer = document.querySelector('.hero h4 span');
   namaContainer.innerText = `${pronoun} ${nama},` .replace(/ ,$/, ',');
